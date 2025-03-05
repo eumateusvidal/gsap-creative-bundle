@@ -9,5 +9,6 @@ cta.addEventListener('mouseenter', function() {
 })
 
 cta.addEventListener('mouseleave', function() {
-    gsap.to(cta, {scale:0.8})
+    scaleTween.pause()
+    gsap.to(cta, {scale:0.8, overwrite:true})
 })
