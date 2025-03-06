@@ -1,0 +1,1 @@
+gsap.to('p', {text:'typewriter effect with GSAP 3', duration:3, ease:'power1.in', repeat:1, yoyo: true})
