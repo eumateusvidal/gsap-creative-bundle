@@ -8,4 +8,4 @@ gsap.registerPlugin(GSDevTools, SplitText)
     GSDevTools.create({animation:animation})
   }
 
-window.addEventListener('load', init)
+window.addEventListener('load', init);
